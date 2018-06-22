@@ -31,4 +31,9 @@ class Teste extends CI_Controller {
 		$params = $this->uri->segment(3);
 		$this->apelido_teste3->salvar($params);
 	}
+
+	public function AnotherController(){
+		echo "Teste Git Another Controller";
+	}
+
 }
